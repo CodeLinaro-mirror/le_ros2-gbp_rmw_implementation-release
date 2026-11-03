@@ -1,4 +1,4 @@
-From 267258901df5f3cbd0f9093bc7743ce2a6601c87 Mon Sep 17 00:00:00 2001
+From f24857f54ba87953861cfd9979846d875b51217e Mon Sep 17 00:00:00 2001
 From: Scott K Logan <logans@cottsay.net>
 Date: Fri, 24 Apr 2026 16:08:34 -0500
 Subject: [PATCH] Manually resolve rmw_implementation_packages group
@@ -8,7 +8,7 @@ Subject: [PATCH] Manually resolve rmw_implementation_packages group
  1 file changed, 11 insertions(+), 1 deletion(-)
 
 diff --git a/rpm/ros-lyrical-rmw-implementation.spec b/rpm/ros-lyrical-rmw-implementation.spec
-index 4fe79cf..eebaaf7 100644
+index db5cd67..8007082 100644
 --- a/rpm/ros-lyrical-rmw-implementation.spec
 +++ b/rpm/ros-lyrical-rmw-implementation.spec
 @@ -1,6 +1,7 @@
@@ -18,7 +18,7 @@ index 4fe79cf..eebaaf7 100644
 +%global _bloom_disable_groups 1
  
  Name:           ros-lyrical-rmw-implementation
- Version:        3.1.5
+ Version:        3.1.6
 @@ -13,6 +14,11 @@ Source0:        %{name}-%{version}.tar.gz
  BuildRequires:  bloom-rpm-macros
  BuildRequires:  cmake
@@ -59,5 +59,5 @@ index 4fe79cf..eebaaf7 100644
  
  %build
 -- 
-2.43.0
+2.53.0
 

@@ -2,7 +2,20 @@
 Changelog for package rmw_implementation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-3.1.6 (2026-07-30)
+3.2.2 (2026-11-03)
+------------------
+* Remove custom ament_cppcheck usage. (`#312 <https://github.com/ros2/rmw_implementation/issues/312>`_)
+* Remove rmw_fastrtps_dynamic_cpp (`#295 <https://github.com/ros2/rmw_implementation/issues/295>`_)
+* Use the SPDX identifier Apache-2.0 in package.xml license tags (`#293 <https://github.com/ros2/rmw_implementation/issues/293>`_)
+* change rmw_implementation deps to be buildtool and not exec (`#99 <https://github.com/ros2/rmw_implementation/issues/99>`_)
+* Contributors: Chris Lalancette, Christophe Bedard, Michael Carroll, William Woodall
+
+3.2.1 (2026-07-30)
+------------------
+* use C++ 20 in default. (`#279 <https://github.com/ros2/rmw_implementation/issues/279>`_)
+* Contributors: Tomoya Fujita
+
+3.2.0 (2026-05-06)
 ------------------
 
 3.1.5 (2026-04-09)
